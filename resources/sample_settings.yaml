@@ -7,15 +7,15 @@ project:
   enrich_messages: true
   db_flush_mode: online   # or offline
 
-  telemetry_capture:
-    gpu: ~ # ~ means None. This is a list that should specify which metrics of the GPU that should be monitored
-    cpu: true
-    per_cpu: true
-    process_info: true
-    mem: true
-    disk: true
-    network: true
-    machine_info: true
+#   telemetry_capture:
+#     gpu: ~ # ~ means None. This is a list that should specify which metrics of the GPU that should be monitored
+#     cpu: true
+#     per_cpu: true
+#     process_info: true
+#     mem: true
+#     disk: true
+#     network: true
+#     machine_info: true
 
 instrumentation:
   enabled: true
